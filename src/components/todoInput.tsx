@@ -31,7 +31,7 @@ const TodoInput = ({
         {displayFullArea && (
           <input
             name="title"
-            placeholder="Title"
+            placeholder=" Todo title"
             onChange={handleChange}
             value={todoContent.title}
             className="outline-none text-lg font-semibold mb-2 px-2 py-1 rounded-md border border-gray-300 focus:ring-2 focus:ring-primary/30"
@@ -40,7 +40,7 @@ const TodoInput = ({
 
         <textarea
           name="content"
-          placeholder="Take a note..."
+          placeholder="Add a todo..."
           rows={displayFullArea ? 3 : 1}
           onChange={handleChange}
           value={todoContent.content}
