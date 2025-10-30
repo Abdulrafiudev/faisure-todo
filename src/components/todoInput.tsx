@@ -23,10 +23,10 @@ const TodoInput = ({
   };
 
   return (
-    <div className="flex justify-center mt-8 w-full">
+    <div className="flex justify-center  w-full mt-0">
       <form
         onSubmit={handleSubmit}
-        className="relative flex flex-col bg-white shadow-sm border border-gray-300 rounded-xl p-4 w-[80%] transition-all duration-300"
+        className="relative flex flex-col bg-white shadow-sm border border-gray-300 rounded-none p-4 w-full  transition-all duration-300 max-sm:rounded-none max-sm:shadow-none max-sm:border-0 "
       >
         {displayFullArea && (
           <input

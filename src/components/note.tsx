@@ -9,7 +9,7 @@ interface NoteProps {
 
 const Notes = ({ notes, handleDelete }: NoteProps) => {
   return (
-    <div className="flex justify-start mt-8 w-full mx-auto p-5 max-sm:flex-col max-sm:items-center ">
+    <div className="flex justify-start mt-8 w-full flex-wrap mx-auto p-5 max-sm:flex-col max-sm:items-center ">
       {notes.map((note, index) => {
         return (
           <div
